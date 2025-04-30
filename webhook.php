@@ -5,7 +5,7 @@ $input = json_decode(file_get_contents('php://input'), true);
 $tokenData = json_decode(file_get_contents('token.json'), true);
 
 $access_token = $tokenData['access_token'];
-$subdomain = 'YOUR_SUBDOMAIN';
+$subdomain = 'khatamovnodir1301';
 
 $event = $input['event'];
 $object = $input['object'];
