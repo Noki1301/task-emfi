@@ -38,3 +38,6 @@ curl_close($ch);
 file_put_contents('token.json', $response);
 
 echo "Token saqlandi:<br><pre>$response</pre>";
+echo "<pre>";
+print_r($_GET);
+echo "</pre>";
