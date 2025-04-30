@@ -7,7 +7,7 @@ $tokenData = json_decode(file_get_contents('token.json'), true);
 $access_token = $tokenData['access_token'];
 $subdomain = 'khatamovnodir1301';
 
-// Qo'llab-quvvatlanadigan entity turlari
+
 $entities = ['leads', 'contacts'];
 
 foreach ($entities as $entity) {
@@ -57,4 +57,4 @@ foreach ($entities as $entity) {
 }
 
 http_response_code(200);
-echo "✅ Webhook ishladi.";
+echo "✅ Webhook работает.";
