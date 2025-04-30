@@ -1,5 +1,4 @@
 <?php
-// callback.php
 
 if (!isset($_GET['code'])) {
 	die('Authorization code not found');
@@ -9,7 +8,7 @@ $code = $_GET['code'];
 
 $client_id = 'f4ef52c6-9432-49ae-bfc0-9dcb399ec15b';
 $client_secret = 'K1d8zhwTUaeljYVDA6dKrO9AFbZWX8yVdIbqdctWtklYyHmmfJRs9IgKD8UrVv0N';
-$redirect_uri = 'https://task-emfi-1.onrender.com//callback.php';
+$redirect_uri = 'https://task-emfi-1.onrender.com/callback.php';
 $subdomain = 'khatamovnodir1301';
 
 $url = "https://{$subdomain}.amocrm.ru/oauth2/access_token";
